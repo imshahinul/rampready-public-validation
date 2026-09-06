@@ -1,0 +1,34 @@
+{
+  "artifact": "RAMPREADY_PUBLIC_REPOSITORY_BOUNDARY_V1",
+  "status": "FROZEN_CANDIDATE",
+  "purpose": "Public GitHub Actions execution of the bounded Phase 4R paired temporal official-source diagnostic.",
+  "deployment_model": "CAMPREADY_STYLE_PUBLIC_VALIDATION",
+  "allowed_public_contents": [
+    "portable collector/runtime code",
+    "GitHub Actions workflow",
+    "public runtime config",
+    "Tier-A public facility identities and aliases",
+    "official public source URLs",
+    "frozen semantic contract",
+    "append-only prospective history",
+    "prospective run evidence created by the public job",
+    "minimal mutable state required for continuity",
+    "README and license"
+  ],
+  "prohibited_public_contents": [
+    "frozen Phase 4 evidence",
+    "historical RampReady audit logs",
+    "private working notes",
+    "local absolute paths",
+    "local usernames",
+    "macOS LaunchAgent files",
+    "pmset configuration",
+    "credentials",
+    "tokens",
+    "unrelated audit artifacts",
+    "historical raw audit captures"
+  ],
+  "workflow_schedule_present": false,
+  "github_repository_created": false,
+  "observation_activated": false
+}

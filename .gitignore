@@ -1,0 +1,12 @@
+# Local/editor noise
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# Never commit credentials
+*.pem
+*.key

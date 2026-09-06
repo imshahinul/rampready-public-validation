@@ -1,0 +1,186 @@
+{
+  "artifact": "RAMPREADY_PUBLIC_VALIDATION_SEMANTIC_CONTRACT_V1",
+  "status": "FROZEN",
+  "facility_denominator": 19,
+  "facilities": [
+    {
+      "id": "RR-GA-001",
+      "name": "Balus Creek Water Access Point",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "BALUS CREEK"
+      ]
+    },
+    {
+      "id": "RR-GA-002",
+      "name": "Belton Bridge Water Access Point",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "BELTON BRIDGE"
+      ]
+    },
+    {
+      "id": "RR-GA-003",
+      "name": "Bolding Mill Boat Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "BOLDING MILL"
+      ]
+    },
+    {
+      "id": "RR-GA-004",
+      "name": "Burton Mill Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "BURTON MILL"
+      ]
+    },
+    {
+      "id": "RR-GA-005",
+      "name": "East Bank Boat Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "EAST BANK"
+      ]
+    },
+    {
+      "id": "RR-GA-006",
+      "name": "Keith's Bridge Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "KEITHS BRIDGE",
+        "KEITH'S BRIDGE"
+      ]
+    },
+    {
+      "id": "RR-GA-007",
+      "name": "Little Hall Boat Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "LITTLE HALL"
+      ]
+    },
+    {
+      "id": "RR-GA-008",
+      "name": "Long Hollow Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "LONG HOLLOW"
+      ]
+    },
+    {
+      "id": "RR-GA-009",
+      "name": "Robinson Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "ROBINSON"
+      ]
+    },
+    {
+      "id": "RR-GA-010",
+      "name": "Tidwell Park Boat Ramp",
+      "project": "BUFORD DAM - LAKE SIDNEY LANIER",
+      "aliases": [
+        "TIDWELL",
+        "TIDWELL PARK"
+      ]
+    },
+    {
+      "id": "RR-GA-020",
+      "name": "Georgia Park",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "GEORGIA PARK"
+      ]
+    },
+    {
+      "id": "RR-GA-021",
+      "name": "Yellowjacket Recreation Area",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "YELLOWJACKET RECREATION AREA",
+        "YELLOWJACKET"
+      ]
+    },
+    {
+      "id": "RR-GA-022",
+      "name": "Sunny Point Park",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "SUNNY POINT PARK",
+        "SUNNY POINT"
+      ]
+    },
+    {
+      "id": "RR-GA-023",
+      "name": "Clark Day Use Park / Clark Park",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "CLARK PARK",
+        "CLARK DAY USE PARK"
+      ]
+    },
+    {
+      "id": "RR-GA-024",
+      "name": "McGee Bridge Park",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "MCGEE BRIDGE PARK",
+        "MCGEE BRIDGE"
+      ]
+    },
+    {
+      "id": "RR-GA-025",
+      "name": "Glass Bridge Park",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "GLASS BRIDGE PARK",
+        "GLASS BRIDGE"
+      ]
+    },
+    {
+      "id": "RR-GA-026",
+      "name": "Earl Cook Recreation Area",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "EARL COOK RECREATION AREA",
+        "EARL COOK"
+      ]
+    },
+    {
+      "id": "RR-GA-027",
+      "name": "Long Cane Park",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "LONG CANE PARK",
+        "LONG CANE"
+      ]
+    },
+    {
+      "id": "RR-GA-028",
+      "name": "R. Shaefer Heard Day-Use Park",
+      "project": "WEST POINT LAKE",
+      "aliases": [
+        "R SHAEFER HEARD PARK",
+        "R SHAEFER HEARD DAY USE PARK"
+      ]
+    }
+  ],
+  "central_status_field": "Boat Ramps",
+  "central_boat_ramps_column_index": 3,
+  "arcgis_status_field": "Boat",
+  "arcgis_context_fields": [
+    "PrevBoat",
+    "AreaStatus",
+    "Notes"
+  ],
+  "area_status_substitution_allowed": false,
+  "arcgis_transparent_fallback_authorized": false,
+  "consumer_pilot_authorized": false,
+  "claims": {
+    "safety_claim_authorized": false,
+    "stale_as_current_authorized": false
+  },
+  "duplicate_semantics": "At most one accepted scheduled observation per calendar date.",
+  "failure_semantics": "Failed scheduled retrievals remain failed evidence. No retry or backfill may manufacture a successful date."
+}

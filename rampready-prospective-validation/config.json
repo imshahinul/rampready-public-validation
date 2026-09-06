@@ -1,0 +1,30 @@
+{
+  "artifact": "RAMPREADY_PUBLIC_VALIDATION_CONFIG_V1",
+  "status": "UNACTIVATED",
+  "facility_count": 19,
+  "central": {
+    "url": "https://corpslakes.erdc.dren.mil/visitors/status.cfm?state=GA",
+    "semantic_field": "Boat Ramps"
+  },
+  "arcgis": {
+    "url": "https://geospatial.sec.usace.army.mil/server/rest/services/Recreation/Recreation_Site/FeatureServer/0/query",
+    "semantic_field": "Boat",
+    "transparent_fallback_authorized": false
+  },
+  "observation": {
+    "activation_date": null,
+    "final_date": null,
+    "target_calendar_days": 7,
+    "minimum_successfully_paired_days": 5,
+    "maximum_calendar_days": 10,
+    "maximum_cycles_per_date": 1,
+    "retry_failed_date": false,
+    "backfill_failed_date": false
+  },
+  "persistence": {
+    "history": "history.jsonl",
+    "state_directory": "state",
+    "runs_directory": "runs",
+    "strategy": "repository_commit"
+  }
+}
