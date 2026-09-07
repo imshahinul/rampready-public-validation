@@ -1,6 +1,6 @@
 {
   "artifact": "RAMPREADY_PUBLIC_VALIDATION_CONFIG_V1",
-  "status": "UNACTIVATED",
+  "status": "ACTIVE",
   "facility_count": 19,
   "central": {
     "url": "https://corpslakes.erdc.dren.mil/visitors/status.cfm?state=GA",
@@ -12,8 +12,8 @@
     "transparent_fallback_authorized": false
   },
   "observation": {
-    "activation_date": null,
-    "final_date": null,
+    "activation_date": "2026-09-07",
+    "final_date": "2026-09-16",
     "target_calendar_days": 7,
     "minimum_successfully_paired_days": 5,
     "maximum_calendar_days": 10,
