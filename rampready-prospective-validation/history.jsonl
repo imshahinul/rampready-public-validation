@@ -3,3 +3,4 @@
 {"scheduled_date":"2026-09-09","observed_at_utc":"2026-09-09T07:20:31.560249+00:00","paired_comparable_count":19,"concordant_count":13,"result_file":"runs/2026-09-09/result.json","central_retrieval_ok":true,"arcgis_retrieval_ok":true}
 {"scheduled_date":"2026-09-10","observed_at_utc":"2026-09-10T07:15:51.587143+00:00","paired_comparable_count":19,"concordant_count":13,"result_file":"runs/2026-09-10/result.json","central_retrieval_ok":true,"arcgis_retrieval_ok":true}
 {"scheduled_date":"2026-09-11","observed_at_utc":"2026-09-11T07:14:58.738023+00:00","paired_comparable_count":19,"concordant_count":13,"result_file":"runs/2026-09-11/result.json","central_retrieval_ok":true,"arcgis_retrieval_ok":true}
+{"scheduled_date":"2026-09-12","observed_at_utc":"2026-09-12T07:06:59.052864+00:00","paired_comparable_count":0,"concordant_count":0,"result_file":"runs/2026-09-12/result.json","central_retrieval_ok":false,"arcgis_retrieval_ok":true}
